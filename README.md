@@ -3,6 +3,8 @@
 * The aim of this project is to classify people’s emotions based on their face images.
 * We have collected more than 20000 facial images, with their associated facial expression labels and around 2000 images with their facial key-point annotations.
 
+Data Source: https://www.kaggle.com/c/facial-keypoints-detection/data
+
 # PART 1. KEY FACIAL POINTS DETECTION
 * In part #1, we will create a deep learning model based on Convolutional Neural Network and Residual Blocks to predict facial key-points.
 * The dataset consists of x and y coordinates of 15 facial key points.
