@@ -30,4 +30,4 @@ Data Source: https://www.kaggle.com/c/facial-keypoints-detection/data
 # MAKING REQUEST IN TENSORFLOW SERVING:
 * In-order to make prediction using TensorFlow Serving, we need to pass the inference requests (image data) as a JSON object.
 * Then, we use python requests library to make a post request to the deployed model, by passing in the JSON object containing inference requests (image data).
-* Finally, we get the prediction from the post request made to the deployed model and then use argmax function to find the predicted class.
+* Finally, we get the prediction from the post request made to the deployed model and then use argmax function to find the predicted class. 
